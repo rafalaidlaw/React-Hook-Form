@@ -25,7 +25,7 @@ export default function SubmitButton(props: SubmitButtonProps) {
         disabled={isSubmitting == undefined ? false : isSubmitting}
         {...other}
       >
-        {isSubmitting === undefined || isSubmitting === false ? (
+        {isSubmitting === undefined || isSubmitting === false ? ( 
           value
         ) : (
           <>
